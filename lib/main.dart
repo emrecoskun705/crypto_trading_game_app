@@ -1,5 +1,5 @@
 import 'package:crypto_trading_game/provider/theme_provider.dart';
-import 'package:crypto_trading_game/screens/home_screen.dart';
+import 'package:crypto_trading_game/screens/home/home_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:provider/provider.dart';

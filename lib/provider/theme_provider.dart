@@ -20,10 +20,12 @@ class ThemeProvider extends ChangeNotifier {
 }
 
 class MyThemes {
-  static final darkTheme = ThemeData(
+  static final darkTheme = ThemeData.dark().copyWith(
     scaffoldBackgroundColor: Colors.grey.shade900,
-    primaryColor: Colors.black,
-    colorScheme: ColorScheme.dark(),
+    primaryColor: Colors.grey.shade900,
+    textTheme: TextTheme(
+      bodyText2: TextStyle(color: Color(0xFFFAFAFA)),
+    ),
     iconTheme: IconThemeData(color: Colors.purple.shade200, opacity: 0.8),
   );
 
