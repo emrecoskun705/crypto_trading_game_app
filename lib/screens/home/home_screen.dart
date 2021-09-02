@@ -1,4 +1,5 @@
 import 'package:crypto_trading_game/constants.dart';
+import 'package:crypto_trading_game/generated/l10n.dart';
 import 'package:crypto_trading_game/screens/widgets/chart_card.dart';
 import 'package:crypto_trading_game/screens/widgets/change_theme_button_widget.dart';
 import 'package:flutter/cupertino.dart';
@@ -17,7 +18,7 @@ class HomeScreen extends StatelessWidget {
       appBar: AppBar(
         elevation: 0,
         centerTitle: true,
-        title: Text('Crypto'),
+        title: Text(S.of(context).titleText),
         actions: [
           ChangeThemeButtonWidget(),
         ],
@@ -28,7 +29,7 @@ class HomeScreen extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
             Text(
-              'Portfolio',
+              S.of(context).portfolioText,
               style: kSectionTitle(),
             ),
             _spacer,
@@ -38,10 +39,10 @@ class HomeScreen extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 Text(
-                  'Charts',
+                  S.of(context).chartsText,
                   style: TextStyle(fontSize: getProportionateScreenHeight(20)),
                 ),
-                Text('See All'),
+                Text(S.of(context).seeAllText),
               ],
             ),
             _spacer,

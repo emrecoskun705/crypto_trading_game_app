@@ -1,7 +1,10 @@
+import 'package:crypto_trading_game/generated/l10n.dart';
+import 'package:crypto_trading_game/provider/language_change_provider.dart';
 import 'package:crypto_trading_game/provider/theme_provider.dart';
 import 'package:crypto_trading_game/screens/home/home_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:provider/provider.dart';
 
 void main() async {
@@ -21,10 +24,19 @@ class MyApp extends StatelessWidget {
     return MultiProvider(
       providers: [
         ChangeNotifierProvider(create: (_) => ThemeProvider()),
+        ChangeNotifierProvider(create: (_) => LanguageChangeProvider()),
       ],
-      child: Consumer<ThemeProvider>(
-        builder: (context, theme, child) {
+      child: Consumer2<ThemeProvider, LanguageChangeProvider>(
+        builder: (context, theme, language, child) {
           return MaterialApp(
+            locale: language.currentLocale,
+            localizationsDelegates: [
+              S.delegate,
+              GlobalMaterialLocalizations.delegate,
+              GlobalWidgetsLocalizations.delegate,
+              GlobalCupertinoLocalizations.delegate,
+            ],
+            supportedLocales: S.delegate.supportedLocales,
             title: 'Flutter Demo',
             themeMode: theme.themeMode,
             theme: MyThemes.lightTheme,

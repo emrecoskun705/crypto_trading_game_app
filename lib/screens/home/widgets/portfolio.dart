@@ -1,3 +1,4 @@
+import 'package:crypto_trading_game/generated/l10n.dart';
 import 'package:crypto_trading_game/provider/theme_provider.dart';
 import 'package:flutter/material.dart';
 import 'package:crypto_trading_game/size_config.dart';
@@ -19,7 +20,7 @@ class Portfolio extends StatelessWidget {
         child: Column(
           children: [
             SizedBox(height: 5),
-            buildWalletTitle(),
+            buildWalletTitle(context),
             SizedBox(height: getProportionateScreenHeight(30)),
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -39,7 +40,7 @@ class Portfolio extends StatelessWidget {
     );
   }
 
-  Row buildWalletTitle() {
+  Row buildWalletTitle(context) {
     return Row(
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: [
@@ -51,7 +52,7 @@ class Portfolio extends StatelessWidget {
             ),
             SizedBox(width: 5),
             Text(
-              'Total Wallet Balance',
+              S.of(context).totalWalletBalanceText,
               style: TextStyle(
                 fontSize: getProportionateScreenHeight(20),
               ),
