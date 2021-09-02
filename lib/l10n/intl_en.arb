@@ -1,7 +1,11 @@
 {
+  "@@locale": "en",
   "titleText": "Crypto",
   "portfolioText": "Portfolio",
   "totalWalletBalanceText": "Total Wallet Balance",
   "chartsText": "Charts",
-  "seeAllText": "See All"
+  "seeAllText": "See All",
+  "homeText": "Home",
+  "tradeText": "Trade",
+  "walletText": "Wallet"
 }

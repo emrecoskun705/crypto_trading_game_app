@@ -22,10 +22,13 @@ class MessageLookup extends MessageLookupByLibrary {
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
         "chartsText": MessageLookupByLibrary.simpleMessage("Grafikler"),
+        "homeText": MessageLookupByLibrary.simpleMessage("Ana Sayfa"),
         "portfolioText": MessageLookupByLibrary.simpleMessage("Portfolyo"),
         "seeAllText": MessageLookupByLibrary.simpleMessage("Hepsi"),
         "titleText": MessageLookupByLibrary.simpleMessage("Kripto"),
         "totalWalletBalanceText":
-            MessageLookupByLibrary.simpleMessage("Toplam Cüzdan Bakiyesi")
+            MessageLookupByLibrary.simpleMessage("Toplam Cüzdan Bakiyesi"),
+        "tradeText": MessageLookupByLibrary.simpleMessage("Al/Sat"),
+        "walletText": MessageLookupByLibrary.simpleMessage("Cüzdan")
       };
 }

@@ -30,8 +30,8 @@ class MyThemes {
   );
 
   static final lightTheme = ThemeData(
-    scaffoldBackgroundColor: Colors.white,
-    primaryColor: Colors.white,
+    scaffoldBackgroundColor: Color(0xFFFAFAFA),
+    primaryColor: Color(0xFFFAFAFA),
     colorScheme: ColorScheme.light(),
     iconTheme: IconThemeData(color: Colors.red, opacity: 0.8),
   );

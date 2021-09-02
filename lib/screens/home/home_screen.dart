@@ -1,5 +1,6 @@
 import 'package:crypto_trading_game/constants.dart';
 import 'package:crypto_trading_game/generated/l10n.dart';
+import 'package:crypto_trading_game/screens/widgets/change_language_button.dart';
 import 'package:crypto_trading_game/screens/widgets/chart_card.dart';
 import 'package:crypto_trading_game/screens/widgets/change_theme_button_widget.dart';
 import 'package:flutter/cupertino.dart';
@@ -20,6 +21,7 @@ class HomeScreen extends StatelessWidget {
         centerTitle: true,
         title: Text(S.of(context).titleText),
         actions: [
+          ChangeLanguageButton(),
           ChangeThemeButtonWidget(),
         ],
       ),

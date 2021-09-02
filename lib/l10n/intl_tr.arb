@@ -1,7 +1,11 @@
 {
+  "@@locale": "tr",
   "titleText": "Kripto",
   "portfolioText": "Portfolyo",
   "totalWalletBalanceText": "Toplam Cüzdan Bakiyesi",
   "chartsText": "Grafikler",
-  "seeAllText": "Hepsi"
+  "seeAllText": "Hepsi",
+  "homeText": "Ana Sayfa",
+  "tradeText": "Al/Sat",
+  "walletText": "Cüzdan"
 }

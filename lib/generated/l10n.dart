@@ -99,6 +99,36 @@ class S {
       args: [],
     );
   }
+
+  /// `Home`
+  String get homeText {
+    return Intl.message(
+      'Home',
+      name: 'homeText',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Trade`
+  String get tradeText {
+    return Intl.message(
+      'Trade',
+      name: 'tradeText',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Wallet`
+  String get walletText {
+    return Intl.message(
+      'Wallet',
+      name: 'walletText',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {
