@@ -1,3 +1,4 @@
+import 'package:crypto_trading_game/constants.dart';
 import 'package:crypto_trading_game/generated/l10n.dart';
 import 'package:crypto_trading_game/screens/cryptocurrency/widgets/cryptocurrency_list.dart';
 import 'package:crypto_trading_game/screens/cryptocurrency/widgets/search_currency.dart';
@@ -21,14 +22,17 @@ class CryptocurrencyScreen extends StatelessWidget {
             children: [
               SearchCurrencyWidget(),
               SizedBox(height: 25),
+              Text(S.of(context).favouritesText, style: kSectionTitle()),
+              SizedBox(height: getProportionateScreenHeight(20)),
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
-                  Text(S.of(context).nameChangeText),
+                  Text(S.of(context).cryptocurrencyText),
                   Text(S.of(context).oneDayChartText),
                   Text(S.of(context).priceText)
                 ],
               ),
+              SizedBox(height: getProportionateScreenHeight(10)),
               CryptoCurrencyList(),
             ],
           ),

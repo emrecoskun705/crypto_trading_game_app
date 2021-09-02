@@ -9,7 +9,8 @@
   "tradeText": "Al/Sat",
   "walletText": "Cüzdan",
   "searchCurrencyText": "Kripto para ara",
-  "nameChangeText": "İsim/Değişim",
+  "cryptocurrencyText": "Kripto Para",
   "oneDayChartText": "1 Günlük Grafik",
-  "priceText": "Miktar"
+  "priceText": "Miktar",
+  "favouritesText": "Favorilerim"
 }

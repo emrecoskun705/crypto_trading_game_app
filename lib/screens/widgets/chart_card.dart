@@ -1,6 +1,9 @@
+import 'package:crypto_trading_game/provider/theme_provider.dart';
 import 'package:fl_chart/fl_chart.dart';
 import 'package:flutter/material.dart';
 import 'package:crypto_trading_game/size_config.dart';
+import 'package:provider/provider.dart';
+import 'package:crypto_trading_game/constants.dart';
 
 class ChartCard extends StatelessWidget {
   ChartCard({Key? key}) : super(key: key);
@@ -32,7 +35,6 @@ class ChartCard extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Text('USD'),
-              Text('1.6%'),
             ],
           ),
           SizedBox(width: 40),
@@ -82,9 +84,20 @@ class ChartCard extends StatelessWidget {
           ),
           SizedBox(width: 40),
           Column(
-            mainAxisAlignment: MainAxisAlignment.center,
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
               Text("\$43.543,23"),
+              Container(
+                padding: EdgeInsets.all(3),
+                decoration: BoxDecoration(
+                  color:
+                      context.watch<ThemeProvider>().themeMode == ThemeMode.dark
+                          ? kForestGreen
+                          : Colors.lightGreen,
+                  borderRadius: BorderRadius.circular(10),
+                ),
+                child: Text('+20.6%'),
+              ),
             ],
           ),
         ],

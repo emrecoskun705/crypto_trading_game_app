@@ -140,11 +140,11 @@ class S {
     );
   }
 
-  /// `Name/Change`
-  String get nameChangeText {
+  /// `Cryptocurrency`
+  String get cryptocurrencyText {
     return Intl.message(
-      'Name/Change',
-      name: 'nameChangeText',
+      'Cryptocurrency',
+      name: 'cryptocurrencyText',
       desc: '',
       args: [],
     );
@@ -165,6 +165,16 @@ class S {
     return Intl.message(
       'Price',
       name: 'priceText',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `My Favourites`
+  String get favouritesText {
+    return Intl.message(
+      'My Favourites',
+      name: 'favouritesText',
       desc: '',
       args: [],
     );

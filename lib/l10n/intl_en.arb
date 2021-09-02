@@ -9,7 +9,8 @@
   "tradeText": "Trade",
   "walletText": "Wallet",
   "searchCurrencyText": "Search cryptocurrency",
-  "nameChangeText": "Name/Change",
+  "cryptocurrencyText": "Cryptocurrency",
   "oneDayChartText": "1 Day Chart",
-  "priceText": "Price"
+  "priceText": "Price",
+  "favouritesText": "My Favourites"
 }
