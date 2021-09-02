@@ -7,5 +7,9 @@
   "seeAllText": "See All",
   "homeText": "Home",
   "tradeText": "Trade",
-  "walletText": "Wallet"
+  "walletText": "Wallet",
+  "searchCurrencyText": "Search cryptocurrency",
+  "nameChangeText": "Name/Change",
+  "oneDayChartText": "1 Day Chart",
+  "priceText": "Price"
 }

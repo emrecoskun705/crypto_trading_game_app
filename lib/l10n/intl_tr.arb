@@ -7,5 +7,9 @@
   "seeAllText": "Hepsi",
   "homeText": "Ana Sayfa",
   "tradeText": "Al/Sat",
-  "walletText": "Cüzdan"
+  "walletText": "Cüzdan",
+  "searchCurrencyText": "Kripto para ara",
+  "nameChangeText": "İsim/Değişim",
+  "oneDayChartText": "1 Günlük Grafik",
+  "priceText": "Miktar"
 }

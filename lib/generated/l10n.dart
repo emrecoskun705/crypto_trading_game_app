@@ -129,6 +129,46 @@ class S {
       args: [],
     );
   }
+
+  /// `Search cryptocurrency`
+  String get searchCurrencyText {
+    return Intl.message(
+      'Search cryptocurrency',
+      name: 'searchCurrencyText',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Name/Change`
+  String get nameChangeText {
+    return Intl.message(
+      'Name/Change',
+      name: 'nameChangeText',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `1 Day Chart`
+  String get oneDayChartText {
+    return Intl.message(
+      '1 Day Chart',
+      name: 'oneDayChartText',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Price`
+  String get priceText {
+    return Intl.message(
+      'Price',
+      name: 'priceText',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {
