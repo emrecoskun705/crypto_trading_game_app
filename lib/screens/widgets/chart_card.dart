@@ -96,7 +96,12 @@ class ChartCard extends StatelessWidget {
                           : Colors.lightGreen,
                   borderRadius: BorderRadius.circular(10),
                 ),
-                child: Text('+20.6%'),
+                child: Text(
+                  '+20.6%',
+                  style: TextStyle(
+                    color: Color(0xFFFAFAFA),
+                  ),
+                ),
               ),
             ],
           ),
