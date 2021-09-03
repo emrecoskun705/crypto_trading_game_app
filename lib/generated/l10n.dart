@@ -179,6 +179,56 @@ class S {
       args: [],
     );
   }
+
+  /// `Buy`
+  String get buyText {
+    return Intl.message(
+      'Buy',
+      name: 'buyText',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Sell`
+  String get sellText {
+    return Intl.message(
+      'Sell',
+      name: 'sellText',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `High`
+  String get highText {
+    return Intl.message(
+      'High',
+      name: 'highText',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Low`
+  String get lowText {
+    return Intl.message(
+      'Low',
+      name: 'lowText',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Volume`
+  String get volumeText {
+    return Intl.message(
+      'Volume',
+      name: 'volumeText',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

@@ -21,11 +21,14 @@ class MessageLookup extends MessageLookupByLibrary {
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
+        "buyText": MessageLookupByLibrary.simpleMessage("Satın Al"),
         "chartsText": MessageLookupByLibrary.simpleMessage("Grafikler"),
         "cryptocurrencyText":
             MessageLookupByLibrary.simpleMessage("Kripto Para"),
         "favouritesText": MessageLookupByLibrary.simpleMessage("Favorilerim"),
+        "highText": MessageLookupByLibrary.simpleMessage("Yüksek"),
         "homeText": MessageLookupByLibrary.simpleMessage("Ana Sayfa"),
+        "lowText": MessageLookupByLibrary.simpleMessage("Düşük"),
         "oneDayChartText":
             MessageLookupByLibrary.simpleMessage("1 Günlük Grafik"),
         "portfolioText": MessageLookupByLibrary.simpleMessage("Portfolyo"),
@@ -33,10 +36,12 @@ class MessageLookup extends MessageLookupByLibrary {
         "searchCurrencyText":
             MessageLookupByLibrary.simpleMessage("Kripto para ara"),
         "seeAllText": MessageLookupByLibrary.simpleMessage("Hepsi"),
+        "sellText": MessageLookupByLibrary.simpleMessage("Sat"),
         "titleText": MessageLookupByLibrary.simpleMessage("Kripto"),
         "totalWalletBalanceText":
             MessageLookupByLibrary.simpleMessage("Toplam Cüzdan Bakiyesi"),
         "tradeText": MessageLookupByLibrary.simpleMessage("Al/Sat"),
+        "volumeText": MessageLookupByLibrary.simpleMessage("Hacim"),
         "walletText": MessageLookupByLibrary.simpleMessage("Cüzdan")
       };
 }

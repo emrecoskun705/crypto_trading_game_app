@@ -12,5 +12,10 @@
   "cryptocurrencyText": "Cryptocurrency",
   "oneDayChartText": "1 Day Chart",
   "priceText": "Price",
-  "favouritesText": "My Favourites"
+  "favouritesText": "My Favourites",
+  "buyText": "Buy",
+  "sellText": "Sell",
+  "highText": "High",
+  "lowText": "Low",
+  "volumeText": "Volume"
 }

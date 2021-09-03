@@ -21,21 +21,26 @@ class MessageLookup extends MessageLookupByLibrary {
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
+        "buyText": MessageLookupByLibrary.simpleMessage("Buy"),
         "chartsText": MessageLookupByLibrary.simpleMessage("Charts"),
         "cryptocurrencyText":
             MessageLookupByLibrary.simpleMessage("Cryptocurrency"),
         "favouritesText": MessageLookupByLibrary.simpleMessage("My Favourites"),
+        "highText": MessageLookupByLibrary.simpleMessage("High"),
         "homeText": MessageLookupByLibrary.simpleMessage("Home"),
+        "lowText": MessageLookupByLibrary.simpleMessage("Low"),
         "oneDayChartText": MessageLookupByLibrary.simpleMessage("1 Day Chart"),
         "portfolioText": MessageLookupByLibrary.simpleMessage("Portfolio"),
         "priceText": MessageLookupByLibrary.simpleMessage("Price"),
         "searchCurrencyText":
             MessageLookupByLibrary.simpleMessage("Search cryptocurrency"),
         "seeAllText": MessageLookupByLibrary.simpleMessage("See All"),
+        "sellText": MessageLookupByLibrary.simpleMessage("Sell"),
         "titleText": MessageLookupByLibrary.simpleMessage("Crypto"),
         "totalWalletBalanceText":
             MessageLookupByLibrary.simpleMessage("Total Wallet Balance"),
         "tradeText": MessageLookupByLibrary.simpleMessage("Trade"),
+        "volumeText": MessageLookupByLibrary.simpleMessage("Volume"),
         "walletText": MessageLookupByLibrary.simpleMessage("Wallet")
       };
 }

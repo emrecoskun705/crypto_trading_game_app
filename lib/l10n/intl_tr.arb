@@ -12,5 +12,10 @@
   "cryptocurrencyText": "Kripto Para",
   "oneDayChartText": "1 Günlük Grafik",
   "priceText": "Miktar",
-  "favouritesText": "Favorilerim"
+  "favouritesText": "Favorilerim",
+  "buyText": "Satın Al",
+  "sellText": "Sat",
+  "highText": "Yüksek",
+  "lowText": "Düşük",
+  "volumeText": "Hacim"
 }

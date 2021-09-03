@@ -1,3 +1,4 @@
+import 'package:crypto_trading_game/constants.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
 
@@ -21,8 +22,8 @@ class ThemeProvider extends ChangeNotifier {
 
 class MyThemes {
   static final darkTheme = ThemeData.dark().copyWith(
-    scaffoldBackgroundColor: Colors.grey.shade900,
-    primaryColor: Colors.grey.shade900,
+    scaffoldBackgroundColor: kDarkModeColor,
+    primaryColor: kDarkModeColor,
     textTheme: TextTheme(
       bodyText2: TextStyle(color: Color(0xFFFAFAFA)),
     ),

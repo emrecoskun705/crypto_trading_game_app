@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:persistent_bottom_nav_bar/persistent-tab-view.dart';
 import 'package:provider/provider.dart';
 
-import 'cryptocurrency/cryptocurrency_screen.dart';
+import 'cryptocurrency/cryptocurrency_list_screen.dart';
 
 class MainPersistentTab extends StatefulWidget {
   const MainPersistentTab({Key? key}) : super(key: key);
