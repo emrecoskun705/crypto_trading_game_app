@@ -88,9 +88,15 @@ class _CryptoCandleChartState extends State<CryptoCandleChart> {
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
-          Text(
-            '\$49.321,23',
-            style: TextStyle(fontSize: getProportionateScreenHeight(30)),
+          Column(
+            children: [
+              Text(
+                '49.321,23',
+                style: TextStyle(fontSize: getProportionateScreenHeight(30)),
+              ),
+              SizedBox(height: 5),
+              Text('≈ \$49.321'),
+            ],
           ),
           Row(
             children: [

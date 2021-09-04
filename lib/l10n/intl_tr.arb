@@ -17,5 +17,6 @@
   "sellText": "Sat",
   "highText": "Yüksek",
   "lowText": "Düşük",
-  "volumeText": "Hacim"
+  "volumeText": "Hacim",
+  "cancelText": "İptal"
 }

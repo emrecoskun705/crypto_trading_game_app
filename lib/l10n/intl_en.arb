@@ -17,5 +17,6 @@
   "sellText": "Sell",
   "highText": "High",
   "lowText": "Low",
-  "volumeText": "Volume"
+  "volumeText": "Volume",
+  "cancelText": "Cancel"
 }

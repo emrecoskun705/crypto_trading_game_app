@@ -229,6 +229,16 @@ class S {
       args: [],
     );
   }
+
+  /// `Cancel`
+  String get cancelText {
+    return Intl.message(
+      'Cancel',
+      name: 'cancelText',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {
