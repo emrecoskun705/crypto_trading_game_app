@@ -1,5 +1,4 @@
 import 'package:crypto_trading_game/screens/cryptocurrency/cryptocurrency_detail_screen.dart';
-import 'package:crypto_trading_game/screens/cryptocurrency/widgets/crypto_candle_chart.dart';
 import 'package:crypto_trading_game/screens/widgets/chart_card.dart';
 import 'package:crypto_trading_game/size_config.dart';
 import 'package:flutter/material.dart';
@@ -12,6 +11,7 @@ class CryptoCurrencyList extends StatelessWidget {
   Widget build(BuildContext context) {
     return Flexible(
       child: ListView.builder(
+        physics: BouncingScrollPhysics(),
         itemCount: 2,
         itemBuilder: (context, index) {
           return Padding(

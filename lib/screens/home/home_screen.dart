@@ -3,6 +3,7 @@ import 'package:crypto_trading_game/generated/l10n.dart';
 import 'package:crypto_trading_game/screens/widgets/change_language_button.dart';
 import 'package:crypto_trading_game/screens/widgets/chart_card.dart';
 import 'package:crypto_trading_game/screens/widgets/change_theme_button_widget.dart';
+import 'package:crypto_trading_game/screens/widgets/hr_widget.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:crypto_trading_game/screens/home/widgets/portfolio.dart';
@@ -25,36 +26,48 @@ class HomeScreen extends StatelessWidget {
           ChangeThemeButtonWidget(),
         ],
       ),
-      body: Padding(
-        padding: EdgeInsets.symmetric(vertical: 10, horizontal: 20),
+      body: SingleChildScrollView(
+        physics: BouncingScrollPhysics(),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
-            Text(
-              S.of(context).portfolioText,
-              style: kSectionTitle(),
+            Padding(
+              padding: EdgeInsets.symmetric(vertical: 10, horizontal: 20),
+              child: Text(
+                S.of(context).portfolioText,
+                style: kSectionTitle(),
+              ),
             ),
             _spacer,
-            Portfolio(),
-            _spacer,
-            Row(
-              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              children: [
-                Text(
-                  S.of(context).chartsText,
-                  style: TextStyle(fontSize: getProportionateScreenHeight(20)),
-                ),
-                Text(S.of(context).seeAllText),
-              ],
+            Padding(
+              padding: EdgeInsets.symmetric(horizontal: 20),
+              child: Portfolio(),
+            ),
+            HRWidget(),
+            Padding(
+              padding: EdgeInsets.symmetric(horizontal: 20),
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  Text(
+                    S.of(context).chartsText,
+                    style:
+                        TextStyle(fontSize: getProportionateScreenHeight(20)),
+                  ),
+                  Text(S.of(context).seeAllText),
+                ],
+              ),
             ),
             _spacer,
-            ChartCard(),
+            Padding(
+              padding: EdgeInsets.symmetric(horizontal: 20),
+              child: ChartCard(),
+            ),
             _spacer,
-            ChartCard(),
-            _spacer,
-            ChartCard(),
-            _spacer,
-            ChartCard(),
+            Padding(
+              padding: EdgeInsets.symmetric(horizontal: 20),
+              child: ChartCard(),
+            ),
           ],
         ),
       ),

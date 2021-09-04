@@ -7,7 +7,7 @@
   "seeAllText": "Hepsi",
   "homeText": "Ana Sayfa",
   "tradeText": "Al/Sat",
-  "walletText": "Cüzdan",
+  "walletText": "Cüzdanlar",
   "searchCurrencyText": "Kripto para ara",
   "cryptocurrencyText": "Kripto Para",
   "oneDayChartText": "1 Günlük Grafik",
@@ -18,5 +18,6 @@
   "highText": "Yüksek",
   "lowText": "Düşük",
   "volumeText": "Hacim",
-  "cancelText": "İptal"
+  "cancelText": "İptal",
+  "myWalletsText": "Cüzdanlarım"
 }

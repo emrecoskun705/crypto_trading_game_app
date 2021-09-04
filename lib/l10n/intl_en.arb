@@ -7,7 +7,7 @@
   "seeAllText": "See All",
   "homeText": "Home",
   "tradeText": "Trade",
-  "walletText": "Wallet",
+  "walletText": "Wallets",
   "searchCurrencyText": "Search cryptocurrency",
   "cryptocurrencyText": "Cryptocurrency",
   "oneDayChartText": "1 Day Chart",
@@ -18,5 +18,6 @@
   "highText": "High",
   "lowText": "Low",
   "volumeText": "Volume",
-  "cancelText": "Cancel"
+  "cancelText": "Cancel",
+  "myWalletsText": "My Wallets"
 }

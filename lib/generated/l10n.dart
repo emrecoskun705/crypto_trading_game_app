@@ -120,10 +120,10 @@ class S {
     );
   }
 
-  /// `Wallet`
+  /// `Wallets`
   String get walletText {
     return Intl.message(
-      'Wallet',
+      'Wallets',
       name: 'walletText',
       desc: '',
       args: [],
@@ -235,6 +235,16 @@ class S {
     return Intl.message(
       'Cancel',
       name: 'cancelText',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `My Wallets`
+  String get myWalletsText {
+    return Intl.message(
+      'My Wallets',
+      name: 'myWalletsText',
       desc: '',
       args: [],
     );

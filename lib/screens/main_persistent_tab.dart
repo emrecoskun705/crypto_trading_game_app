@@ -1,6 +1,7 @@
 import 'package:crypto_trading_game/generated/l10n.dart';
 import 'package:crypto_trading_game/provider/theme_provider.dart';
 import 'package:crypto_trading_game/screens/home/home_screen.dart';
+import 'package:crypto_trading_game/screens/wallet/wallet_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:persistent_bottom_nav_bar/persistent-tab-view.dart';
 import 'package:provider/provider.dart';
@@ -23,7 +24,7 @@ class _MainPersistentTabState extends State<MainPersistentTab> {
   List<Widget> screens = [
     HomeScreen(),
     CryptocurrencyScreen(),
-    Container(),
+    WalletScreen(),
   ];
 
   List<PersistentBottomNavBarItem> _navbarItems(BuildContext context) {

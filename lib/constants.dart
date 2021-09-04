@@ -10,6 +10,7 @@ const kGreyColor = Color(0xFF383838);
 const kWhiteColor = Color(0xFFFAFAFA);
 Color kDarkModeColor = Colors.grey.shade900;
 Color kDarkModeBrightColor = Colors.grey.withOpacity(0.8);
+Color kDarkModeTextColor = Colors.black.withOpacity(0.5);
 Color kStarYellowColor = Colors.yellow;
 const kForestGreen = Color(0xFF228B22);
 

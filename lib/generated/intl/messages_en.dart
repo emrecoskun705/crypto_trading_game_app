@@ -30,6 +30,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "highText": MessageLookupByLibrary.simpleMessage("High"),
         "homeText": MessageLookupByLibrary.simpleMessage("Home"),
         "lowText": MessageLookupByLibrary.simpleMessage("Low"),
+        "myWalletsText": MessageLookupByLibrary.simpleMessage("My Wallets"),
         "oneDayChartText": MessageLookupByLibrary.simpleMessage("1 Day Chart"),
         "portfolioText": MessageLookupByLibrary.simpleMessage("Portfolio"),
         "priceText": MessageLookupByLibrary.simpleMessage("Price"),
@@ -42,6 +43,6 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Total Wallet Balance"),
         "tradeText": MessageLookupByLibrary.simpleMessage("Trade"),
         "volumeText": MessageLookupByLibrary.simpleMessage("Volume"),
-        "walletText": MessageLookupByLibrary.simpleMessage("Wallet")
+        "walletText": MessageLookupByLibrary.simpleMessage("Wallets")
       };
 }

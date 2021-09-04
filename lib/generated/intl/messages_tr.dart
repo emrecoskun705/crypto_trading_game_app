@@ -30,6 +30,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "highText": MessageLookupByLibrary.simpleMessage("Yüksek"),
         "homeText": MessageLookupByLibrary.simpleMessage("Ana Sayfa"),
         "lowText": MessageLookupByLibrary.simpleMessage("Düşük"),
+        "myWalletsText": MessageLookupByLibrary.simpleMessage("Cüzdanlarım"),
         "oneDayChartText":
             MessageLookupByLibrary.simpleMessage("1 Günlük Grafik"),
         "portfolioText": MessageLookupByLibrary.simpleMessage("Portfolyo"),
@@ -43,6 +44,6 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Toplam Cüzdan Bakiyesi"),
         "tradeText": MessageLookupByLibrary.simpleMessage("Al/Sat"),
         "volumeText": MessageLookupByLibrary.simpleMessage("Hacim"),
-        "walletText": MessageLookupByLibrary.simpleMessage("Cüzdan")
+        "walletText": MessageLookupByLibrary.simpleMessage("Cüzdanlar")
       };
 }
