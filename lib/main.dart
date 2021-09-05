@@ -1,6 +1,7 @@
 import 'package:crypto_trading_game/generated/l10n.dart';
 import 'package:crypto_trading_game/provider/language_change_provider.dart';
 import 'package:crypto_trading_game/provider/theme_provider.dart';
+import 'package:crypto_trading_game/screens/authentication/authentication_screen.dart';
 import 'package:crypto_trading_game/screens/main_persistent_tab.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -13,7 +14,7 @@ void main() async {
     DeviceOrientation.portraitUp,
     DeviceOrientation.portraitDown,
   ]);
-  
+
   runApp(MyApp());
 }
 
@@ -41,7 +42,7 @@ class MyApp extends StatelessWidget {
             themeMode: theme.themeMode,
             theme: MyThemes.lightTheme,
             darkTheme: MyThemes.darkTheme,
-            home: MainPersistentTab(),
+            home: AuthenticationScreen(),
           );
         },
       ),

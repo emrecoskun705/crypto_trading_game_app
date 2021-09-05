@@ -29,12 +29,14 @@ class MessageLookup extends MessageLookupByLibrary {
         "favouritesText": MessageLookupByLibrary.simpleMessage("Favorilerim"),
         "highText": MessageLookupByLibrary.simpleMessage("Yüksek"),
         "homeText": MessageLookupByLibrary.simpleMessage("Ana Sayfa"),
+        "loginText": MessageLookupByLibrary.simpleMessage("Giriş Yap"),
         "lowText": MessageLookupByLibrary.simpleMessage("Düşük"),
         "myWalletsText": MessageLookupByLibrary.simpleMessage("Cüzdanlarım"),
         "oneDayChartText":
             MessageLookupByLibrary.simpleMessage("1 Günlük Grafik"),
         "portfolioText": MessageLookupByLibrary.simpleMessage("Portfolyo"),
         "priceText": MessageLookupByLibrary.simpleMessage("Miktar"),
+        "registerText": MessageLookupByLibrary.simpleMessage("Kaydol"),
         "searchCurrencyText":
             MessageLookupByLibrary.simpleMessage("Kripto para ara"),
         "seeAllText": MessageLookupByLibrary.simpleMessage("Hepsi"),

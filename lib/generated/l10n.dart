@@ -249,6 +249,26 @@ class S {
       args: [],
     );
   }
+
+  /// `Log In`
+  String get loginText {
+    return Intl.message(
+      'Log In',
+      name: 'loginText',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Register`
+  String get registerText {
+    return Intl.message(
+      'Register',
+      name: 'registerText',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

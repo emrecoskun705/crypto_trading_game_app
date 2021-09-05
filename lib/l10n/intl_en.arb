@@ -19,5 +19,7 @@
   "lowText": "Low",
   "volumeText": "Volume",
   "cancelText": "Cancel",
-  "myWalletsText": "My Wallets"
+  "myWalletsText": "My Wallets",
+  "loginText": "Log In",
+  "registerText": "Register"
 }

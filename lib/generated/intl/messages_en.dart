@@ -29,11 +29,13 @@ class MessageLookup extends MessageLookupByLibrary {
         "favouritesText": MessageLookupByLibrary.simpleMessage("My Favourites"),
         "highText": MessageLookupByLibrary.simpleMessage("High"),
         "homeText": MessageLookupByLibrary.simpleMessage("Home"),
+        "loginText": MessageLookupByLibrary.simpleMessage("Log In"),
         "lowText": MessageLookupByLibrary.simpleMessage("Low"),
         "myWalletsText": MessageLookupByLibrary.simpleMessage("My Wallets"),
         "oneDayChartText": MessageLookupByLibrary.simpleMessage("1 Day Chart"),
         "portfolioText": MessageLookupByLibrary.simpleMessage("Portfolio"),
         "priceText": MessageLookupByLibrary.simpleMessage("Price"),
+        "registerText": MessageLookupByLibrary.simpleMessage("Register"),
         "searchCurrencyText":
             MessageLookupByLibrary.simpleMessage("Search cryptocurrency"),
         "seeAllText": MessageLookupByLibrary.simpleMessage("See All"),

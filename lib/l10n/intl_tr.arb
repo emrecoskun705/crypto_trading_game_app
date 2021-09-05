@@ -19,5 +19,7 @@
   "lowText": "Düşük",
   "volumeText": "Hacim",
   "cancelText": "İptal",
-  "myWalletsText": "Cüzdanlarım"
+  "myWalletsText": "Cüzdanlarım",
+  "loginText": "Giriş Yap",
+  "registerText": "Kaydol"
 }
