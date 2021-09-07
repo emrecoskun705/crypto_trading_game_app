@@ -26,7 +26,15 @@ class MessageLookup extends MessageLookupByLibrary {
         "chartsText": MessageLookupByLibrary.simpleMessage("Grafikler"),
         "cryptocurrencyText":
             MessageLookupByLibrary.simpleMessage("Kripto Para"),
+        "enterConfirmPassword":
+            MessageLookupByLibrary.simpleMessage("Şifrenizi doğrulayın"),
+        "enterEmailText":
+            MessageLookupByLibrary.simpleMessage("E-posta adresinizi girin"),
+        "enterPasswordText":
+            MessageLookupByLibrary.simpleMessage("Şifrenizi girin"),
         "favouritesText": MessageLookupByLibrary.simpleMessage("Favorilerim"),
+        "forgotPasswordText":
+            MessageLookupByLibrary.simpleMessage("Şifrenizi mı unuttunuz?"),
         "highText": MessageLookupByLibrary.simpleMessage("Yüksek"),
         "homeText": MessageLookupByLibrary.simpleMessage("Ana Sayfa"),
         "loginText": MessageLookupByLibrary.simpleMessage("Giriş Yap"),
@@ -34,6 +42,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "myWalletsText": MessageLookupByLibrary.simpleMessage("Cüzdanlarım"),
         "oneDayChartText":
             MessageLookupByLibrary.simpleMessage("1 Günlük Grafik"),
+        "orText": MessageLookupByLibrary.simpleMessage("VEYA"),
         "portfolioText": MessageLookupByLibrary.simpleMessage("Portfolyo"),
         "priceText": MessageLookupByLibrary.simpleMessage("Miktar"),
         "registerText": MessageLookupByLibrary.simpleMessage("Kaydol"),

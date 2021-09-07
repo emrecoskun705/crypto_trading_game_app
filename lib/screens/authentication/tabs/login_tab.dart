@@ -1,4 +1,5 @@
 import 'package:crypto_trading_game/constants.dart';
+import 'package:crypto_trading_game/generated/l10n.dart';
 import 'package:crypto_trading_game/provider/theme_provider.dart';
 import 'package:crypto_trading_game/screens/authentication/widgets/form_text_field.dart';
 import 'package:crypto_trading_game/screens/main_persistent_tab.dart';
@@ -17,18 +18,19 @@ class LogInTab extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final _spacer = SizedBox(height: getProportionateScreenHeight(30));
+    var language = S.of(context);
     return SingleChildScrollView(
       child: Padding(
         padding: EdgeInsets.all(8.0),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
-            buildForm(),
+            buildForm(context),
             SizedBox(height: 5),
             Row(
               mainAxisAlignment: MainAxisAlignment.end,
               children: [
-                Text('Forgot Password?'),
+                Text(language.forgotPasswordText),
                 SizedBox(width: 15),
               ],
             ),
@@ -37,7 +39,7 @@ class LogInTab extends StatelessWidget {
             _spacer,
             Center(
               child: Text(
-                '- OR -',
+                '- ${language.orText} -',
                 style: TextStyle(
                   fontWeight: FontWeight.bold,
                   color: context.watch<ThemeProvider>().isDarkMode
@@ -58,18 +60,18 @@ class LogInTab extends StatelessWidget {
     );
   }
 
-  Form buildForm() {
+  Form buildForm(BuildContext context) {
     return Form(
       key: _formKey,
       child: Column(
         children: [
           FormTextField(
-            hint: 'Enter your Email',
+            hint: S.of(context).enterEmailText,
             prefixIcon: Icons.email,
             controller: emailController,
           ),
           FormTextField(
-            hint: 'Enter your Password',
+            hint: S.of(context).enterPasswordText,
             prefixIcon: Icons.lock,
             controller: password1Controller,
             obscureText: true,
@@ -84,7 +86,7 @@ class LogInTab extends StatelessWidget {
       padding:
           EdgeInsets.symmetric(horizontal: getProportionateScreenWidth(25)),
       child: RoundedButton(
-        name: 'LOGIN',
+        name: S.of(context).loginText.toUpperCase(),
         bgColor: context.watch<ThemeProvider>().isDarkMode
             ? Colors.grey.shade700
             : Colors.lightBlueAccent,

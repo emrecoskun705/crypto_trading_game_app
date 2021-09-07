@@ -10,8 +10,8 @@ class LanguageChangeProvider extends ChangeNotifier {
     notifyListeners();
   }
 
-  void toggleLanguage(bool isOn) {
-    this._currentLocale = isOn ? Locale('en') : Locale('tr');
+  void toggleLanguage(Locale locale) {
+    this._currentLocale = locale;
     notifyListeners();
   }
 }

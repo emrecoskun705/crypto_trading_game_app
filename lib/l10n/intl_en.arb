@@ -21,5 +21,11 @@
   "cancelText": "Cancel",
   "myWalletsText": "My Wallets",
   "loginText": "Log In",
-  "registerText": "Register"
+  "registerText": "Register",
+  "forgotPasswordText": "Forgot Password?",
+  "orText": "OR",
+  "enterEmailText": "Enter your Email",
+  "enterPasswordText": "Enter your Password",
+  "enterConfirmPassword": "Confirm your Password"
+
 }

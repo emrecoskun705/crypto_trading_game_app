@@ -22,8 +22,8 @@ class HomeScreen extends StatelessWidget {
         centerTitle: true,
         title: Text(S.of(context).titleText),
         actions: [
-          ChangeLanguageButton(),
           ChangeThemeButtonWidget(),
+          ChangeLanguageButton(),
         ],
       ),
       body: SingleChildScrollView(

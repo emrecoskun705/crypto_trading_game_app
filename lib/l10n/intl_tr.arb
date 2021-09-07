@@ -21,5 +21,11 @@
   "cancelText": "İptal",
   "myWalletsText": "Cüzdanlarım",
   "loginText": "Giriş Yap",
-  "registerText": "Kaydol"
+  "registerText": "Kaydol",
+  "forgotPasswordText": "Şifrenizi mı unuttunuz?",
+  "orText": "VEYA",
+  "enterEmailText": "E-posta adresinizi girin",
+  "enterPasswordText": "Şifrenizi girin",
+  "enterConfirmPassword": "Şifrenizi doğrulayın"
+
 }

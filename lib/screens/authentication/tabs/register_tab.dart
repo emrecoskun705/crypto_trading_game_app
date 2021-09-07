@@ -1,3 +1,4 @@
+import 'package:crypto_trading_game/generated/l10n.dart';
 import 'package:crypto_trading_game/provider/theme_provider.dart';
 import 'package:crypto_trading_game/screens/authentication/widgets/form_text_field.dart';
 import 'package:crypto_trading_game/screens/widgets/rounded_button.dart';
@@ -22,13 +23,13 @@ class RegisterTab extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
-            buildForm(),
+            buildForm(context),
             _spacer,
             buildRegisterButton(context),
             _spacer,
             Center(
               child: Text(
-                '- OR -',
+                '- ${S.of(context).orText} -',
                 style: TextStyle(
                   fontWeight: FontWeight.bold,
                   color: context.watch<ThemeProvider>().isDarkMode
@@ -54,7 +55,7 @@ class RegisterTab extends StatelessWidget {
       padding:
           EdgeInsets.symmetric(horizontal: getProportionateScreenWidth(25)),
       child: RoundedButton(
-        name: 'Register',
+        name: S.of(context).registerText,
         bgColor: context.watch<ThemeProvider>().isDarkMode
             ? Colors.grey.shade700
             : Colors.lightBlueAccent,
@@ -64,24 +65,24 @@ class RegisterTab extends StatelessWidget {
     );
   }
 
-  Form buildForm() {
+  Form buildForm(BuildContext context) {
     return Form(
       key: _formKey,
       child: Column(
         children: [
           FormTextField(
-            hint: 'Enter your Email',
+            hint: S.of(context).enterEmailText,
             prefixIcon: Icons.email,
             controller: emailController,
           ),
           FormTextField(
-            hint: 'Enter your Password',
+            hint: S.of(context).enterPasswordText,
             prefixIcon: Icons.lock,
             controller: password1Controller,
             obscureText: true,
           ),
           FormTextField(
-            hint: 'Confirm your Password',
+            hint: S.of(context).enterConfirmPassword,
             prefixIcon: Icons.lock,
             controller: password2Controller,
             obscureText: true,

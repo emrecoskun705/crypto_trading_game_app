@@ -5,14 +5,20 @@ import 'package:provider/provider.dart';
 class ChangeThemeButtonWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    final themeProvider = Provider.of<ThemeProvider>(context);
-
-    return Switch.adaptive(
-      value: themeProvider.isDarkMode,
-      onChanged: (value) {
-        final provider = Provider.of<ThemeProvider>(context, listen: false);
-        provider.toggleTheme(value);
+    return IconButton(
+      onPressed: () {
+        context
+            .read<ThemeProvider>()
+            .toggleTheme(!context.read<ThemeProvider>().isDarkMode);
       },
+      icon: context.watch<ThemeProvider>().isDarkMode
+          ? Icon(
+              Icons.nightlight_round,
+            )
+          : Icon(
+              Icons.wb_sunny,
+              color: Colors.amber,
+            ),
     );
   }
 }

@@ -8,12 +8,15 @@ class ChangeLanguageButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final languageChangeProvider = Provider.of<LanguageChangeProvider>(context);
-    return Switch.adaptive(
-      value: languageChangeProvider.currentLocale == Locale('en') ? true:false,
-      onChanged: (value) {
-        final provider = Provider.of<LanguageChangeProvider>(context, listen: false);
-        provider.toggleLanguage(value);
-      },
-    );
+    return TextButton(
+        onPressed: () {
+          languageChangeProvider.toggleLanguage(
+              languageChangeProvider.currentLocale == Locale('en')
+                  ? Locale('tr')
+                  : Locale('en'));
+        },
+        child: Text(languageChangeProvider.currentLocale
+            .toLanguageTag()
+            .toUpperCase()));
   }
 }

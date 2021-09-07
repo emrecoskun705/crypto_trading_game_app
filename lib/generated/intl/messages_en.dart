@@ -26,13 +26,22 @@ class MessageLookup extends MessageLookupByLibrary {
         "chartsText": MessageLookupByLibrary.simpleMessage("Charts"),
         "cryptocurrencyText":
             MessageLookupByLibrary.simpleMessage("Cryptocurrency"),
+        "enterConfirmPassword":
+            MessageLookupByLibrary.simpleMessage("Confirm your Password"),
+        "enterEmailText":
+            MessageLookupByLibrary.simpleMessage("Enter your Email"),
+        "enterPasswordText":
+            MessageLookupByLibrary.simpleMessage("Enter your Password"),
         "favouritesText": MessageLookupByLibrary.simpleMessage("My Favourites"),
+        "forgotPasswordText":
+            MessageLookupByLibrary.simpleMessage("Forgot Password?"),
         "highText": MessageLookupByLibrary.simpleMessage("High"),
         "homeText": MessageLookupByLibrary.simpleMessage("Home"),
         "loginText": MessageLookupByLibrary.simpleMessage("Log In"),
         "lowText": MessageLookupByLibrary.simpleMessage("Low"),
         "myWalletsText": MessageLookupByLibrary.simpleMessage("My Wallets"),
         "oneDayChartText": MessageLookupByLibrary.simpleMessage("1 Day Chart"),
+        "orText": MessageLookupByLibrary.simpleMessage("OR"),
         "portfolioText": MessageLookupByLibrary.simpleMessage("Portfolio"),
         "priceText": MessageLookupByLibrary.simpleMessage("Price"),
         "registerText": MessageLookupByLibrary.simpleMessage("Register"),
