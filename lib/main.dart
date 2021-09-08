@@ -2,7 +2,6 @@ import 'package:crypto_trading_game/generated/l10n.dart';
 import 'package:crypto_trading_game/provider/language_change_provider.dart';
 import 'package:crypto_trading_game/provider/theme_provider.dart';
 import 'package:crypto_trading_game/screens/authentication/authentication_screen.dart';
-import 'package:crypto_trading_game/screens/main_persistent_tab.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';

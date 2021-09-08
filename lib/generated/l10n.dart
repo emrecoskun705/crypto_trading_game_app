@@ -319,6 +319,36 @@ class S {
       args: [],
     );
   }
+
+  /// `Change Password`
+  String get changePasswordText {
+    return Intl.message(
+      'Change Password',
+      name: 'changePasswordText',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Send`
+  String get sendText {
+    return Intl.message(
+      'Send',
+      name: 'sendText',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `To change your password you need to enter your email which is registered to Crypto app.`
+  String get changePasswordInfoText {
+    return Intl.message(
+      'To change your password you need to enter your email which is registered to Crypto app.',
+      name: 'changePasswordInfoText',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

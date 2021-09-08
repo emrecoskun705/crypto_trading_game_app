@@ -22,10 +22,13 @@
   "myWalletsText": "Cüzdanlarım",
   "loginText": "Giriş Yap",
   "registerText": "Kaydol",
-  "forgotPasswordText": "Şifrenizi mı unuttunuz?",
+  "forgotPasswordText": "Parolanızı mı unuttunuz?",
   "orText": "VEYA",
   "enterEmailText": "E-posta adresinizi girin",
-  "enterPasswordText": "Şifrenizi girin",
-  "enterConfirmPassword": "Şifrenizi doğrulayın"
+  "enterPasswordText": "Parolanızı girin",
+  "enterConfirmPassword": "Parolanızı doğrulayın",
+  "changePasswordText": "Parolamı Unuttum",
+  "sendText": "Gönder",
+  "changePasswordInfoText": "Parolanı değiştirmek için Kripto uygulamasına kayıtlı olan e-posta adresini yazmalısın."
 
 }

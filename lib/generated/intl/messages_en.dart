@@ -23,6 +23,10 @@ class MessageLookup extends MessageLookupByLibrary {
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
         "buyText": MessageLookupByLibrary.simpleMessage("Buy"),
         "cancelText": MessageLookupByLibrary.simpleMessage("Cancel"),
+        "changePasswordInfoText": MessageLookupByLibrary.simpleMessage(
+            "To change your password you need to enter your email which is registered to Crypto app."),
+        "changePasswordText":
+            MessageLookupByLibrary.simpleMessage("Change Password"),
         "chartsText": MessageLookupByLibrary.simpleMessage("Charts"),
         "cryptocurrencyText":
             MessageLookupByLibrary.simpleMessage("Cryptocurrency"),
@@ -49,6 +53,7 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Search cryptocurrency"),
         "seeAllText": MessageLookupByLibrary.simpleMessage("See All"),
         "sellText": MessageLookupByLibrary.simpleMessage("Sell"),
+        "sendText": MessageLookupByLibrary.simpleMessage("Send"),
         "titleText": MessageLookupByLibrary.simpleMessage("Crypto"),
         "totalWalletBalanceText":
             MessageLookupByLibrary.simpleMessage("Total Wallet Balance"),

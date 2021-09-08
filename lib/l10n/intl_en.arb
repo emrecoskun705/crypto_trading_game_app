@@ -26,6 +26,9 @@
   "orText": "OR",
   "enterEmailText": "Enter your Email",
   "enterPasswordText": "Enter your Password",
-  "enterConfirmPassword": "Confirm your Password"
+  "enterConfirmPassword": "Confirm your Password",
+  "changePasswordText": "Change Password",
+  "sendText": "Send",
+  "changePasswordInfoText": "To change your password you need to enter your email which is registered to Crypto app."
 
 }

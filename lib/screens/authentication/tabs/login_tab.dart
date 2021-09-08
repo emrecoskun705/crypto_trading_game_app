@@ -1,6 +1,7 @@
 import 'package:crypto_trading_game/constants.dart';
 import 'package:crypto_trading_game/generated/l10n.dart';
 import 'package:crypto_trading_game/provider/theme_provider.dart';
+import 'package:crypto_trading_game/screens/authentication/widgets/forgot_password.dart';
 import 'package:crypto_trading_game/screens/authentication/widgets/form_text_field.dart';
 import 'package:crypto_trading_game/screens/main_persistent_tab.dart';
 import 'package:crypto_trading_game/screens/widgets/rounded_button.dart';
@@ -30,7 +31,12 @@ class LogInTab extends StatelessWidget {
             Row(
               mainAxisAlignment: MainAxisAlignment.end,
               children: [
-                Text(language.forgotPasswordText),
+                GestureDetector(
+                  child: Text(language.forgotPasswordText),
+                  onTap: () {
+                    pushNewScreen(context, screen: ForgotPasswordScreen());
+                  },
+                ),
                 SizedBox(width: 15),
               ],
             ),

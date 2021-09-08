@@ -23,18 +23,22 @@ class MessageLookup extends MessageLookupByLibrary {
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
         "buyText": MessageLookupByLibrary.simpleMessage("Satın Al"),
         "cancelText": MessageLookupByLibrary.simpleMessage("İptal"),
+        "changePasswordInfoText": MessageLookupByLibrary.simpleMessage(
+            "Parolanı değiştirmek için Kripto uygulamasına kayıtlı olan e-posta adresini yazmalısın."),
+        "changePasswordText":
+            MessageLookupByLibrary.simpleMessage("Parolamı Unuttum"),
         "chartsText": MessageLookupByLibrary.simpleMessage("Grafikler"),
         "cryptocurrencyText":
             MessageLookupByLibrary.simpleMessage("Kripto Para"),
         "enterConfirmPassword":
-            MessageLookupByLibrary.simpleMessage("Şifrenizi doğrulayın"),
+            MessageLookupByLibrary.simpleMessage("Parolanızı doğrulayın"),
         "enterEmailText":
             MessageLookupByLibrary.simpleMessage("E-posta adresinizi girin"),
         "enterPasswordText":
-            MessageLookupByLibrary.simpleMessage("Şifrenizi girin"),
+            MessageLookupByLibrary.simpleMessage("Parolanızı girin"),
         "favouritesText": MessageLookupByLibrary.simpleMessage("Favorilerim"),
         "forgotPasswordText":
-            MessageLookupByLibrary.simpleMessage("Şifrenizi mı unuttunuz?"),
+            MessageLookupByLibrary.simpleMessage("Parolanızı mı unuttunuz?"),
         "highText": MessageLookupByLibrary.simpleMessage("Yüksek"),
         "homeText": MessageLookupByLibrary.simpleMessage("Ana Sayfa"),
         "loginText": MessageLookupByLibrary.simpleMessage("Giriş Yap"),
@@ -50,6 +54,7 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Kripto para ara"),
         "seeAllText": MessageLookupByLibrary.simpleMessage("Hepsi"),
         "sellText": MessageLookupByLibrary.simpleMessage("Sat"),
+        "sendText": MessageLookupByLibrary.simpleMessage("Gönder"),
         "titleText": MessageLookupByLibrary.simpleMessage("Kripto"),
         "totalWalletBalanceText":
             MessageLookupByLibrary.simpleMessage("Toplam Cüzdan Bakiyesi"),
